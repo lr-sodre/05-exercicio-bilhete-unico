@@ -14,7 +14,6 @@ public class BilheteUnico {
         usuario = new Usuario(cpf, nome, perfil);
     }
 
-
     //método para carregar o bilhete
     public double carregarBilhete(double valor){
         saldo += valor;
